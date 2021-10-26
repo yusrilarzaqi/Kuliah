@@ -17,6 +17,7 @@
 - **1946 : ENIAC** (*Electronic Numerical Integrator dan Calculator*)
   - Komputer elektronik pertama didunia yang mempunyai bobot seberan 30 Ton, panjang 30 M dan tinggi 2.4 M dan membutukhkan daya listrik 174 Killowatts
 - **1953 : IBM 701**
+  - [IBM 701](IBM1.jpg)
   - Komputer komersial berukuran besar, komputer generasi pertama yang paling populer
 
 ## Komputer Generasi Kedua (1959-1964)
