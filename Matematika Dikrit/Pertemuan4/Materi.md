@@ -141,6 +141,11 @@ Argumen ada yang ***Sahih (valid)*** dan ***Palsu (invalid)***
 - Periksa tabel, p dan p -> q benar secara bersama-sama pada baris 1.
 - Pada baris 1 ini q juga benar. jadi, argumen di atas sahih
 
+### cara 2: Perhatikan dengan tabel kebenaran apakah 
+- [p ^ (p -> q)] -> q
+merupakan tautologi. Tabel 1.16 memperlihatkan bahwa [p ^ (p -> q)] -> q suatu tautologi, sehingga argumen dikatakan saihi
+- Tabel 1.16 [p ^ (p -> q)] -> q adalah tautologi
+- Perhatikan bahwa penarikan kesimpulan di dalam argumen ini menggunakan modus poenen. jadi kita kita juga telah memperlihatkan bahwa modus ponen adalah argumen sahih
 
 
 
