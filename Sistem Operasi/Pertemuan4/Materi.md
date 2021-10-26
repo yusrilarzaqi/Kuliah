@@ -17,16 +17,18 @@
   - !(ENIAC)[]
   - Komputer elektronik pertama didunia yang mempunyai bobot seberan 30 Ton, panjang 30 M dan tinggi 2.4 M dan membutukhkan daya listrik 174 Killowatts
 - **1953 : IBM 701**
-  - !(IBM1)[IBM1.jpg]
+  - !(IBM1)[http://4.bp.blogspot.com/-BE8724FRMqA/UWZ-EVZkdfI/AAAAAAAAAFU/DDm4qYjb7es/s1600/komputer+generasi+kedua.jpg]
   - Komputer komersial berukuran besar, komputer generasi pertama yang paling populer
 
 ## Komputer generasi kedua (1959-1964)
-
-
-
-
-
-
+- Sirkutitnya berupa transistor 
+- Program dapat dibuat dengan basha tinggat tinggi
+  - COBOL, FORTRAN, ALGOL
+- Kapasistas memori utama sudah cukup besar
+- Proses operasi sudah cepat
+- Membutuhkan daya yang lebih kecil
+- Berorientasi pada bisnis dan teknik
+- Komputer yang paling banyak digunakan pada generasi kedua ini adalah **IBM 401** untuk aplikasi bisnis, **IBM 1602 & IBM 7094** untuk aplikasi teknik
 
 
 
