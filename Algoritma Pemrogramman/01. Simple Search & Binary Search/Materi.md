@@ -86,4 +86,4 @@ This chapter covers:
 >   low = mid + 1
 - And if the guess is too high, you update **high**.
 - The book uses **Python 2** whereas in the class we use **Python 3**. There are few differences in the code.
-- Here's the full code: (Main.py)[Main.py]
+- Here's the full code: [Main.py](Main.py)
