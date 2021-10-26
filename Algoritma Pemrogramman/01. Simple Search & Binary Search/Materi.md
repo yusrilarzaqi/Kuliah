@@ -60,8 +60,13 @@ This chapter covers:
 - When you serach for an element using simple search, in the worst case you might have to look at every single element.
 - So for a list of 8 numbers, youd'd have to check 8 numbers at most.
 - For binary search, you have to check ***log n*** elements in the worst case.
-- For a list of 8 elements, *log 8 = 3*, because *2³ = 8*. So for a list of 8 numbers, you would have to check 3 numbers at most.
+- For a list of 8 elements, **log 8 = 3**, because *2³ = 8*. So for a list of 8 numbers, you would have to check 3 numbers at most.
 - For a list of 1024 elements, *log 1024* = 10, because *2¹⁰ == 1024*, So for a list of 1024 numbers, you'd have to check 10 numbers at most.
+
+## Notes 
+- I'll talk about log time a lot in this book. so you sould understand the concept of logarithms. If you don't , **Khan Academy** (khanacademy.org) has a nice video that makes it clear.
+- Binary search only works when you list is in **sorted order**. For example, the names in a phone book are sorted in alphabetical order. So you can use binary search to look for a name.
+
 
 
 
