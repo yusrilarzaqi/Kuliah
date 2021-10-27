@@ -49,10 +49,10 @@ Beberapa unit standar yang disediakan adalah SYSTEM, DOS, CRT, PRINTER, OVERLAY,
 - Constant yang disingkat dengan const adalah nilai konstanta (nilai tetap) yang dipasang dalam program.
 - Bentuk umum:
   - > Const\
-  - > Pengenal = exprisi;
+    Pengenal = exprisi;
   - atau 
   - > Const\
-  - > Phi = 3.14;
+    Phi = 3.14;
 
 
 ## Variable 
