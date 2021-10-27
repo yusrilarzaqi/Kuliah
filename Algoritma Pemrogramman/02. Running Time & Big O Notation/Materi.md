@@ -71,4 +71,6 @@
 - In general, Big O notation is written as follows.
   - ***O(n)***
 - This tell you number of operation an algorithm will make.
-- it's called Big O notation because you put a "Big O" in front of the number of operations (it sund like a joke, but it's true!).
+- it's called Big O notation because you put a "Big O" in front of the number of operations (it sound like a joke, but it's true!).
+
+
