@@ -43,13 +43,13 @@ This chapter covers:
 
 - Here's a better technique.
 - Start with 50.
-- Too low, but you just eliminated half the numbers! 
+- Too low, but you just eliminated half the numbers!
 - Now you know that 1-50 are all too low. Next guess: 75.
 - Too high, but again you cut down half the remaining numbers!
 - **Whith binary search, you guess the middle number and eliminated half the remaining numbers every time.**
 - Next is 63 (halfway bettwen 50 and 75).
 
-## Binary Search Performance Explained 
+## Binary Search Performance Explained
 
 - This is binary search. You just learned you first algorithm!
 - Here's how many numbers you can eliminate every time.
@@ -72,12 +72,12 @@ This chapter covers:
 - For a list of 8 elements, *log 8 = 3*, because *2³ = 8*. So for a list of 8 numbers, you would have to check 3 numbers at most.
 - For a list of 1024 elements, *log 1024* = 10, because *2¹⁰ == 1024*, So for a list of 1024 numbers, you'd have to check 10 numbers at most.
 
-## Notes 
+## Notes
 
 - I'll talk about log time a lot in this book. so you sould understand the concept of logarithms. If you don't , **Khan Academy** (khanacademy.org) has a nice video that makes it clear.
 - Binary search only works when you list is in **sorted order**. For example, the names in a phone book are sorted in alphabetical order. So you can use binary search to look for a name.
 
-## Binary Search in Python 
+## Binary Search in Python
 
 - Let's see how to write binary search in Python.
 - The code sample here uses arrays.
@@ -87,19 +87,25 @@ This chapter covers:
 - You'll keep track of what part of the array you have to search trough.
 - At the beginning, this is the entry array.
 
-> low = 0
-> high = len(list) - 1
+'''vim
+low = 0
+high = len(list) - 1
+'''
 
 - Each time, you check the middle element:
 
-> mid = (low + high) / 2\
-> guess = list[mid]
+'''vim
+mid = (low + high) / 2
+    guess = list[mid]
+'''
 
 - **mid** is rounded down by Python automatically if **(low + high)** isn't an even number
 - if the guess is too low, you update **low** accordingly:
 
-> if guess < item:
->   low = mid + 1
+'''vim
+if guess < item:
+  low = mid + 1
+'''
 
 - And if the guess is too high, you update **high**.
 - The book uses **Python 2** whereas in the class we use **Python 3**. There are few differences in the code.
