@@ -9,6 +9,7 @@ PT Indonesia Powet Unit Bisnis Pembangkitan Semarang beralamat di Ronggowarsito 
 
 Sistem distribusi tenaga listrik mengubungkan pusat pembangkit listrik (1) denan konsumen (4) melalui jaringan distribusi tenaga listrik (2) & (3)
 <img src="">
+![gambar1](img/gambar1.img)
 
 ## Arus **Alternating Current (AC)**
 
