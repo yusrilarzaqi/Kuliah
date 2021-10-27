@@ -87,17 +87,17 @@ This chapter covers:
 - You'll keep track of what part of the array you have to search trough.
 - At the beginning, this is the entry array.
 
-'''vim
+"""vim
 low = 0
 high = len(list) - 1
-'''
+"""
 
 - Each time, you check the middle element:
 
-'''vim
+"""vim
 mid = (low + high) / 2
     guess = list[mid]
-'''
+"""
 
 - **mid** is rounded down by Python automatically if **(low + high)** isn't an even number
 - if the guess is too low, you update **low** accordingly:

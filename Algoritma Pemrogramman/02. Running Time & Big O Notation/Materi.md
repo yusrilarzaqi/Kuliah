@@ -40,7 +40,7 @@
 - Bob realistically, the list will have more link a billion elements.
 - Bob runs binary search with 1 billion elements, and it takes 30 ms (log₂ 1.000.000.000 is roughly 30).
 - >"Binary search is about 15 times faster than simple search, because simple search took 100 ks with 100 elements, and binary search took 7 ms.\
-- > So simple sarch will take *30 x 15 = 450* ms, right? Way under my thershold of 10 seconds."
+    So simple sarch will take *30 x 15 = 450* ms, right? Way under my thershold of 10 seconds."
 - Bob decides to go with simple search.
 - **Is that the right choise?**
 
