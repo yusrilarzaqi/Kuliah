@@ -29,7 +29,7 @@ Arus mengalir atu arah setiap detik. Tegangan ACCU mempunyai frekuensi 0Hz berat
 ## Inverter
 
 Tegangan DC dialirkan sambung-putus ke Kumparan sehingga mampu menginduksi medan elektromagnetik unuk menurunkan tegangan\
-<img src="./img/inverer.PNG">
+<img src="./img/inverter.PNG">
 
 ## Transformator
 
