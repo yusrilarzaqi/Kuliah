@@ -17,11 +17,10 @@ Arus mengalir berubah arah (bolak-balik) setiap detik. Tegangan PLN mempunyai fr
 
 ## Kebutuhan Arus **Direct Current (DC)**
 
-Perangkat yang membutuhkan tegangan DC.
+Perangkat yang membutuhkan tegangan DC.\
 
-<img src=""> 
-<img src=""> 
-<img src=""> 
+<img src="./img/gambar2.PNG"> \
+<img src="./img/gambar3.PNG"> 
 
 ## Arus **Direct Current (DC)** atau Arus satu arah
 
@@ -29,19 +28,20 @@ Arus mengalir atu arah setiap detik. Tegangan ACCU mempunyai frekuensi 0Hz berat
 
 ## Inverter
 
-Tegangan DC dialirkan sambung-putus ke Kumparan sehingga mampu menginduksi medan elektromagnetik unuk menurunkan tegangan
-<img src="">
+Tegangan DC dialirkan sambung-putus ke Kumparan sehingga mampu menginduksi medan elektromagnetik unuk menurunkan tegangan\
+<img src="./img/inverer.PNG">
 
 ## Transformator
 
-Kumparan yang mampu menginduksi medan elektromagnetik unutk menurunkan tegangan.
+Kumparan yang mampu menginduksi medan elektromagnetik unutk menurunkan tegangan.\
+<img src='./img/transformator.PNG'>
 
 ## **Alternating Currunt (AC)** dirubah menjadi **Direct Current (DC)** menggunakan **Inverter**
 
-Adaptor atau power suplay
-<img src="">
+Adaptor atau power suplay\
+<img src="./img/gambar4.PNG">
 
 ## **Alternating Currunt (AC)** dirubah menjadi **Direct Current (DC)** menggunakan **Transformator**
 
-Adaptor atau power suplay
-<img src="">
+Adaptor atau power suplay\
+<img src="./img/gambar5.PNG">
