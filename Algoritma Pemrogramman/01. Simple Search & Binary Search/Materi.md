@@ -87,25 +87,25 @@ This chapter covers:
 - You'll keep track of what part of the array you have to search trough.
 - At the beginning, this is the entry array.
 
-"""vim
+```python
 low = 0
 high = len(list) - 1
-"""
+```
 
 - Each time, you check the middle element:
 
-"""vim
+```python
 mid = (low + high) / 2
     guess = list[mid]
-"""
+```
 
 - **mid** is rounded down by Python automatically if **(low + high)** isn't an even number
 - if the guess is too low, you update **low** accordingly:
 
-'''vim
+```python
 if guess < item:
   low = mid + 1
-'''
+```
 
 - And if the guess is too high, you update **high**.
 - The book uses **Python 2** whereas in the class we use **Python 3**. There are few differences in the code.
