@@ -93,7 +93,7 @@ Please refer to **page 28** of the textbook for exrcises
 - Unlike insertions, deletions will always work.
 - Insertions can fall somtimes when there's no space left in memory. But you can always delete an element.
 
-- Here are the run times for deletion on array and linked list.
+- Here are the run times for deletion on array and linked list.\
              |Arrays| List|
   - Reading  |  O(1)| O(n)|
   - Insertion|  O(n)| O(1)|
