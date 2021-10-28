@@ -15,7 +15,7 @@
 - Who care? Well, it turns out that you'll use other peaple's algorithms often and when you do, it's nice to understand how fast or slow there are.
 - In this section, i'll explain what Big O notation is and give you a list of the most common running thimes for algorithm using it.
 
-## Algorithm running times geow at different rates
+## Algorithm running times grow at different rates
 
 - Bob is writing a search alorithm for NASA.
 - His algorithm will kick in when a rocket is about to land on the Moon, and it will help calculate where to land.
