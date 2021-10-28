@@ -73,4 +73,90 @@
 - This tell you number of operation an algorithm will make.
 - it's called Big O notation because you put a "Big O" in front of the number of operations (it sound like a joke, but it's true!).
 
+## Visualizing different Big O run times (another simple case study)
 
+- Here's a practical example you can follow at home with a few pieces of paper and pencil.
+- Suppose you have to draw a grid of 16 boxes.
+
+`What's a good algorithm to draw this grid?`
+
+### Algorithm 1
+
+- One way to do it is to draw 16 boxs, one at a time
+- Remember, Big O notation conuts the number of operations.
+- in this example, drawing one box is one operation. You have to draw 16 boxes.
+- How many operations will it take, drawing one box at a time?
+- It takes 16 steps to draw 16 boxes, What's the running time for this algorithm?
+
+### Algorithm 2
+
+- Try this algorithm instead. Fold the paper
+- In this examples, folding the paper once is an operation.
+- You just made tow boxes with that operation!
+
+---
+
+- Fold the paper again, and again, and again.
+- Unfold it after four fold, and you'll have a beautiful grid!
+
+---
+
+- Every fold doubles the number of boxes. You made 16 boxes with 4 operations!
+- You can "draw" twice as many boxes with every fold, so you can draw 16 boxes in 4 steps.
+- What's the running time for this algorithm?
+- Come up with running times for both algorithms before moving on.
+- Answer : Algorithm 1 take ***O***(*n*) time, and algorithm 2 takes ***O***(*logn*) time.
+
+## Big O establishes a worst-case run time
+
+- Suppose you're using simple search to look for a persoin in the phone book
+- You  kniw thatmsimple search take ***O***(*n*) time to run, which means in the worst case, you'll have to loook trough every singgle entry in your phone book.
+- In this case, you're looking for Adit. Tis guy is the fires entry in your phone book. So you didn't have to look at every entry-you found it on the first try.
+- Did this algorithm ***O***(*n*) time ? Or did it take ***O***(*1*) time because you found the person on the first try?
+
+---
+
+- Simple search still takes ***O***(*n*) time.
+- In this case you found what you were looking for instantly. That's the best-case scenario.
+- But **Big I notation** is about **the worst-case scenario**.
+- So you can say that, in the worst vase, you'll have to look at every entry in the phone book once. That's ***O***(*n*) time.
+- It's reassurance you know that simple search will never be slower than ***O***(*n*) time.
+
+## Some common Big O run times
+
+Here are five Big O dun times that you'll encounter a lot, sorted from faster to slowest:
+- ***O***(*logn*), also known as log time. Example :Binary search.
+- ***O***(*n*), also known as linear time. Example :Simple search.
+- ***O***(*n \* logn*). Example :A fast sorting algorithm, like quickshoot(smming up in chapter4).
+- ***O***(*n²*). Example :A slow sorting algoritm, like selection sort (comming up in chapter2).
+- ***O***(*n!*). Example :A really slow algorithm, like the traveling sales person (comming up next!).
+
+---
+
+- Suppose you're drawing a grid of 16 boxes again, and you can chosen from 5 different algorithms to do so.
+- You con do 10 operations per second.
+- If you user the first algorithm, it will take you ***O***(*logn*) time to draw the grid.
+- With ***O***(*logn*) time, it will take you 4 operations to fraw a grid of 16 boxex (log 16 is 4). So it will take you 0.4 seconds to draw the grid.
+- What if you have 1024 boxex? It will take you **log 1024 = 10** operations, or 1 second to draw a grid 1025 boxes.
+- These numbers are using the first algorithm.
+
+---
+
+- The second algorithm is slower: it takes ***O***(*n*) time.
+- It will take 16 operations to draw 16 boxes, and it will take 1024 operation to draw 1024 boxes.
+- How much time is that in second ?
+- 102,4 seconds
+
+---
+
+- Here's how long it would take to draw a grid for the rest of the algorithms, from fasttest to slowest:
+- There are other run times, too, but these are the five most common.
+- This is a simplifaction. In reality you can't convert from a Big O run time to a number of operations this neathly, but this is good enough for now.
+
+## Big O Notation (recap)
+
+For now, the main takeaways are follows:
+- Alogithm speed isn't measured in seconds, but i growth of the number op operations.
+- Instead, we talk about how quickly the run time of an algorithm increases as the size of the input increases.
+- Run time of algorithms is expressed in Big O notation.
+- ***O***(*logn*) is faster than ***O***(*n*), but it gets a lot faster as the list of items you're searching grows.
