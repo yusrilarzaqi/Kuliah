@@ -94,10 +94,10 @@ Please refer to **page 28** of the textbook for exrcises
 - Insertions can fall somtimes when there's no space left in memory. But you can always delete an element.
 
 - Here are the run times for deletion on array and linked list.
-  -         Arrays| List
-  - Reading   O(1)| O(n)
-  - Insertion O(n)| O(1)
-  - Deketion  O(n)| O(1)
+  -          |Arrays| List|
+  - Reading  |  O(1)| O(n)|
+  - Insertion|  O(n)| O(1)|
+  - Deketion |  O(n)| O(1)|
 - It's worth mentioning that inserions and deletions are ***O(1)*** time only if you can instanly access the element to be delete.
 - It's common practice to keep track of the first and last items in a linked list, so it would take only ***O(1)*** time to delete those.
 
