@@ -41,9 +41,12 @@
 ## Perbandingan
 
 - Mechine Language
+
+```vim
 110011001 000100011
 001010011 110101001
 101011011 101000010
+```
 
 - Assembly 
 
