@@ -133,13 +133,13 @@ int a = b * c;
   - Pada kebanyakan bahasa pemrograman, variiabel, kostanta, dan prosedur dapat diberikan nama yang didefinisikan opeh programmer.
 
 ```vim
-if x > 2 Then
+if x > 2 then
   z := x * 5;
-Else
+else
   z := x;
 ```
 
-- **Synatx**
+- **Syntax**
   - Keyword
   - Expression
   - Statements
