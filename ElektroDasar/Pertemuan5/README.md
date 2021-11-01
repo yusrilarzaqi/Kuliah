@@ -72,7 +72,7 @@ Terdaoat beberapa cara pengelompokan Pegatur Tegangan yang berbentuk **IC** (*In
 
 ## Rangkaian Dasar IC Voltage Regulator (Fixed Voltage Regulator)
 
-![Fixed Voltage Regulator](img/FixedVoltageregulator.jpg)
+![Fixed Voltage Regulator](img/FixedVoltageRegulator.jpg)
 
 ## ADJUSTABLE VOLTAGE REGULATOR (Pengatur Tegangan yang dapat disetel)
 
