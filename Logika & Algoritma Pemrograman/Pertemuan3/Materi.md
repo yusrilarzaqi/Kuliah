@@ -231,6 +231,9 @@ Ada tujuh operator pada pascal, yaitu;
 Ada Seorang anak Gadis mau nikah minta persyaratan:
 1. Orangnya harus kaya dan
 2. Orangnya harus tampan
+Ada Seorang anak Gadis mau nikah minta persyaratan:
+1. Orangnya harus kaya atau
+2. Orangnya harus tampan
 ![gambar4](gambar4.png)
 
 ## Operator Pembanding
@@ -245,8 +248,10 @@ Ada Seorang anak Gadis mau nikah minta persyaratan:
 
 Pascal hanya mengenal satu macam operator string, yaitu penggabungan, Operatir ini digunakan unutuk menggabungkan dua atau lebih string. Operator ini menggunakan tanda '+'.
 contoh:
-- > S := 'Univ STEKOM' + 'Semarang';\
-    Writeln(S);
+```pascal
+S := 'Univ STEKOM' + 'Semarang';
+Writeln(S);
+```
 
 ## Derajat Operator 
 
