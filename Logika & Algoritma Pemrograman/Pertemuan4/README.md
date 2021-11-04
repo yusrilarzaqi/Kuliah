@@ -220,18 +220,23 @@ jumlah 6:2 itu optional bisa lebih atau kutang sesuaikan dengan kebutuhan.
 
 - input : Celcius R=4/5\*C, F=9/5\*C+32
 - output : Reamur dan Fahrenheit (C/R/F, 5/4/9+32)
+- ![Program konfersi](src/konversi.pas)
 
 ### 2. Buatlah program unutk menghitung Luas segi tiga
 
 - input : Alas, Tinggi
 - Output: Luas segi tiga (Alas*Tinggi)/2
+- ![Program Menghitung luas segitiga](src/LuasSegitiga.pas)
 
 ### 3. Buatlah program unutk mengitung Luas dan keliling lingkaran
 
 - input : Jari-jari(r) / atau Diameter(D)
 - output: Luas(Phi\*r\*r) dan keliling(Phi\*r\*2)
+- ![Program Menghitung luas dan keliling Lingkaran](src/LuasLingkaran.pas)
 
 ### 4. Buat Program Pascal dengan atuaran input dua buah bilangan, Tampilan hasil : penjumlahan, pengurangan, perkalian dan pembagian dari kedua bilangan tersebut
+
+- ![Program Aritmatika](src/input.pas)
 
 ## Penutup
 
