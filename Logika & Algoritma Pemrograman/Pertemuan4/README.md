@@ -220,7 +220,7 @@ jumlah 6:2 itu optional bisa lebih atau kutang sesuaikan dengan kebutuhan.
 
 - input : Celcius R=4/5\*C, F=9/5\*C+32
 - output : Reamur dan Fahrenheit (C/R/F, 5/4/9+32)
-- ![Program konfersi](src/konversi.pas)
+- ![Program konversi](src/konversi.pas)
 
 ### 2. Buatlah program unutk menghitung Luas segi tiga
 

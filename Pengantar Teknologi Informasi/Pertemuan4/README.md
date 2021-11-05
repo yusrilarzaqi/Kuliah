@@ -62,5 +62,5 @@ Database merupakan gabungan dari beberapa file yang saling berhubungan dan dapat
 
 ## Contoh Penggunaan ERD
 
-![Contoh Penggunaan ERD](img/CotohPenggunaan.png)
+![Contoh Penggunaan ERD](img/ContohPenggunaan.png)
 
