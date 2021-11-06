@@ -108,3 +108,4 @@ Please refer to **page 28** of the textbook for exrcises
 - Linked list can only do sequential access. IFf you want to read the 10th element of a linkes list, you have to read the first 9 elements and follow the links to the 10th element.
 - Random access meands you can jump directly to the specific element.
 - Array are faster ar reads. This is because the provide random access.
+
