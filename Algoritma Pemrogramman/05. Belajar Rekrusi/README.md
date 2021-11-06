@@ -115,6 +115,7 @@ def countdown(i):
     return countdown(i - 1)
 ```
 - Now the function works as expected. It does sometging like this.
-![img1](img/img1.png)
+
+![img1](img/img1.png)\
 ![Code](src/Main.py)
 
