@@ -3,7 +3,7 @@
 ## Himpunan
 
 Salah satu kemampuan yang kita kuasai setelah kita mempelajari logika proposisi adalah kemampuan membedakan. Membedakan apakah tautologi, konstadiksi atau bentuk proposisi yang lain, membedakan apakah proposisi bernilai benar atau salah, membedakan apakah kautor universal atau existential.\
-Untuk dapat menguaisai teori himpunan, kemampuan untuk membedakan sangat diperlukan, karena himpunan merupakan kumpulan benda atau objek yang didefinisikan secara jelas. Himpunan dapat dipandang sebagai kumpulan benda-benda yang berbeda tapi dalam satu segi dapat ditanggapi sebagai suatu kesatuan. Objek-objek ini disebut anggota atau elemen himpunan.\
+Untuk dapat menguaisai teori himpunan, kemampuan untuk membedakan sangat diperlukan, karena himpunan merupakan kumpulan benda atau objek yang didefinisikan secara jelas. Himpunan dapat dipandang sebagai kumpulan benda-benda yang berbeda tapi dalam satu segi dapat ditanggapi sebagai suatu kesatuan. Objek-objek ini disebut anggota atau elemen himpunan.
 
 **Notasi**:
 - Himpunan : A, B, C, ...
@@ -14,7 +14,7 @@ Untuk dapat menguaisai teori himpunan, kemampuan untuk membedakan sangat diperlu
 Kita didefinisikan himpunan software under windows, maka kita menulis ;\
 `A = [MsWord, MsExcel, MsPowerPoint,...]`\
 atau\
-`B = [x|x software under windows]`\
+`B = [x|x software under windows]`
 
 Cara menuliskan himpunan A disebut menulis secara tabulasi\
 Cara menuliskan himpunan B disebut menulis secara deskirpsi.
@@ -30,7 +30,7 @@ Notasi : *n(A)* atau |A|
 **Contoh**
 B = {*x*| *x* merupakan bilangan prima yang lebih kecil dari 20},atau B = {2, 3, 5, 7, 11, 13, 17, 19} maka |B| = 8\
 T = {penrkutut, kutilang, kenari, dara, beo}, maka |T| = 5\
-A = {a, {a}, {{a}} }, maka |A| = 3\
+A = {a, {a}, {{a}} }, maka |A| = 3
 
 ## Himpunan Berhingga dan Tak Berhingga
 
@@ -40,13 +40,13 @@ Bila tidak demikian maka himpunan tak berhingga.
 
 A = himpunan software anti virus.\
 A = {x|x software anti virus}\
-A = {Norton, McAfee, Panca, KaperSky, Norman}\
+A = {Norton, McAfee, Panca, KaperSky, Norman}
 
 **CONTOH**
 
 B = himpunan bilangan asli\
 B = {x|x bilangan asli}\
-b = {1, 2, 3, ...}\
+b = {1, 2, 3, ...}
 
 maka A berhingga
 
@@ -81,7 +81,7 @@ Himpunan A dikatakan sub himpunan B jika dan hanja jika semua elemen-elemen A ad
 A = {Win3.1, Win3.11, Win95, Win97}\
 B = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp}
 
-**MAKA**\
+**MAKA**
 
 ![sasadsa](img/ACB.png)
 
@@ -93,7 +93,7 @@ A = {WinXp, Linux, Unix}\
 B = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp}\
 C = {*monitor, printer, scanner*}
 
-**MAKA**\
+**MAKA**
 
 ![alds](img/maka1.png)
 
@@ -101,7 +101,7 @@ C = {*monitor, printer, scanner*}
 
 ### 2.1.4.1 Himpunan Kosong / Enrty set
 
-Himpunan dengan kardinal = 0 disebut dengan himpunan kosong/
+Himpunan dengan kardinal = 0 disebut dengan himpunan kosong
 
 ![notasi](img/notasi1.png)
 
