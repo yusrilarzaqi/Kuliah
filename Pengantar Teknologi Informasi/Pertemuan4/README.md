@@ -20,7 +20,7 @@
 ## Permasalahan Dengan Pendekatan FIle
 
 Permasalahan yang timbul antara lain:
-1. **Data Redundacyi** (*Duplicate*) 
+1. **Data Redundacy** (*Duplicate*) 
   - Karena aplikasi dan file datanya telah dibuat oleh programer yang berbeda dalam jangka waktu lama, maka sejumlah informasi yang sama terduplikasi di berberapa tempat.
 2. **Data Inconsestency** (*Data tidak konsisten*)
   - Data inconsistency berati suatu jenis data memiliki berbagai macam salinan yang berbeda-beda (untuk data yang sama, salinannya tidak sama, sehingga data tidak konsisten).
