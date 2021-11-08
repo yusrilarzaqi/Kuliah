@@ -11,26 +11,26 @@ Untuk dapat menguaisai teori himpunan, kemampuan untuk membedakan sangat diperlu
 
 ## Contoh
 
-Kita didefinisikan himpunan software under windows, maka kita menulis ;
-`A = [MsWord, MsExcel, MsPowerPoint,...]`
-atau
-`B = [x|x software under windows]`
+Kita didefinisikan himpunan software under windows, maka kita menulis ;\
+`A = [MsWord, MsExcel, MsPowerPoint,...]`\
+atau\
+`B = [x|x software under windows]`\
 
 Cara menuliskan himpunan A disebut menulis secara tabulasi\
 Cara menuliskan himpunan B disebut menulis secara deskirpsi.
 
-Masing-masing objek dalam himpunan A disebut anggota atau elemen himpunan, dithuliskan:\
+Masing-masing objek dalam himpunan A disebut anggota atau elemen himpunan, dituliskan:\
 ![contoh1](img/contoh1.png)
 
 ## 2.1.1 Kardinalitas
 
-Jumlah elemen di dalam A disebut kardinal dari himpunan A.
+Jumlah elemen di dalam A disebut kardinal dari himpunan A.\
 Notasi : *n(A)* atau |A|
 
 **Contoh**
-B = {*x*| *x* merupakan bilangan prima yang lebih kecil dari 20},atau B = {2, 3, 5, 7, 11, 13, 17, 19} maka |B| = 8
-T = {penrkutut, kutilang, kenari, dara, beo}, maka |T| = 5
-A = {a, {a}, {{a}} }, maka |A| = 3
+B = {*x*| *x* merupakan bilangan prima yang lebih kecil dari 20},atau B = {2, 3, 5, 7, 11, 13, 17, 19} maka |B| = 8\
+T = {penrkutut, kutilang, kenari, dara, beo}, maka |T| = 5\
+A = {a, {a}, {{a}} }, maka |A| = 3\
 
 ## Himpunan Berhingga dan Tak Berhingga
 
@@ -38,15 +38,15 @@ Himpunan berhingga adalah himpunan dimana jumlah anggotanya berhingga artinya bi
 
 Bila tidak demikian maka himpunan tak berhingga.
 
-A = himpunan software anti virus.
-A = {x|x software anti virus}
-A = {Norton, McAfee, Panca, KaperSky, Norman}
+A = himpunan software anti virus.\
+A = {x|x software anti virus}\
+A = {Norton, McAfee, Panca, KaperSky, Norman}\
 
 **CONTOH**
 
-B = himpunan bilangan asli
-B = {x|x bilangan asli}
-b = {1, 2, 3, ...}
+B = himpunan bilangan asli\
+B = {x|x bilangan asli}\
+b = {1, 2, 3, ...}\
 
 maka A berhingga
 
@@ -56,7 +56,7 @@ Dua himpunan A dan B dikatakan sama dengan jika dan hanya jika keduanya bersama-
 
 **CONTOH**
 
-A = {WordPad, MsWord, WordPerfect, Libreoffice}
+A = {WordPad, MsWord, WordPerfect, Libreoffice}\
 B = {WordPad, WordPerfect, Libreoffice, MsWord}
 
 **MAKA**
@@ -67,7 +67,7 @@ Dua himpunan A dan B dengan elemen-elemen yang berbeda dikatakan setara jika dan
 
 **CONTOH**
 
-A = {MsExcel, Lotus 123}
+A = {MsExcel, Lotus 123}\
 B = {Mouse, Keboard}
 
 **MAKA**
@@ -78,7 +78,7 @@ Himpunan A dikatakan sub himpunan B jika dan hanja jika semua elemen-elemen A ad
 
 **CONTOH**
 
-A = {Win3.1, Win3.11, Win95, Win97}
+A = {Win3.1, Win3.11, Win95, Win97}\
 B = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp}
 
 **MAKA**\
@@ -89,8 +89,8 @@ Bila tidak demikian dikatakan bukan sub himpunan.
 
 **CONTOH**
 
-A = {WinXp, Linux, Unix}
-B = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp}
+A = {WinXp, Linux, Unix}\
+B = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp}\
 C = {*monitor, printer, scanner*}
 
 **MAKA**\
@@ -116,19 +116,19 @@ Singleton set adalah himpunan yang hanya memiliki satu angota.
 
 **CONTOH**
 
-A = Himpunan devices yang berfungsi sebagai input devices sekaligus output devices.
+A = Himpunan devices yang berfungsi sebagai input devices sekaligus output devices.\
 A = {touch screen}
 
 ### 2.1.4.3 Himpunan Semesta / Universal Set
 
-Dalam setiap membicarakan himpunan, maka semua himpunan yang ditinjau adalah subhimpunan dari sebuah himpunan tertentu yang disebut himpunan semesta.
+Dalam setiap membicarakan himpunan, maka semua himpunan yang ditinjau adalah subhimpunan dari sebuah himpunan tertentu yang disebut himpunan semesta.\
 Dengan kata lain himpunan semesta adalah himpunan dari semua objek yang berbeda.
 
 Notasi : U
 
 **CONTOH**
 
-U = Semesta pembicaraan, yaitu sistem operasi produksi Microsoft
+U = Semesta pembicaraan, yaitu sistem operasi produksi Microsoft\
 U = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp}
 
 ### 2.1.4.4 Himpunan Kuasa
@@ -141,11 +141,11 @@ Notasi : 2^
 
 **CONTOH**
 
-A = {mouse, keyboard}
+A = {mouse, keyboard}\
 B = {monitor, printer, scanner}
 
 **MAKA**
-2A = {A, {mouse}, {keyboard}, 0}
+2A = {A, {mouse}, {keyboard}, 0}\
 2B = {B. {monitor}, {printer}, {scanner}, {monitor, printer}, {monitor, scanner}, {printer, scanner}, 0}
 
 ## 2.2 Operasi Himpunan
@@ -160,8 +160,8 @@ Notasi:
 
 **CONTOH**
 
-A = {mouse, keyboard}
-B = {monitor ,printer, scanner}
+A = {mouse, keyboard}\
+B = {monitor ,printer, scanner}\
 C = {mouse, keyboard, CPU, monitor}
 
 **MAKA**
@@ -178,7 +178,7 @@ Notasi :
 
 **CONTOH**
 
-A = {mouse, keyboard, touch screen}
+A = {mouse, keyboard, touch screen}\
 B = {monitor, touch screen, printer, scanner}
 
 **MAKA**
@@ -195,7 +195,7 @@ A - B
 
 **CONTOH**
 
-A = {SQL server, MySQL, MsAcecs}
+A = {SQL server, MySQL, MsAcecs}\
 B = {MySQL, MsAcecs, Oracle}
 
 **MAKA**
@@ -204,7 +204,7 @@ A - B  = {SQL server}
 
 ### 2.2.4 Komplemen dari Himpunan
 
-Komplemen dari sebuah himpunan A adalah himpunan yang anggotanya bukan anggota A .
+Komplemen dari sebuah himpunan A adalah himpunan yang anggotanya bukan anggota A .\
 Dengan kata lain komponen A adalah himpunan yang anggotanya merupakan hasil dari U - A.
 
 Notasi :
@@ -213,8 +213,8 @@ Notasi :
 
 **CONTOH**
 
-U = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp, ...}
-A = {Win3.1, Win3.11, Win95, Win97}
+U = {Win3.1, Win3.11, Win95, Win97, Win98, Win98SE, WinMe, Win2000, WinXp, ...}\
+A = {Win3.1, Win3.11, Win95, Win97}\
 A'= {Win98, Win98SE, WinMe, Win2000, WinXp, ...}
 
 ### Symmetic Difference / Beda Setangkup
@@ -227,7 +227,7 @@ Notasi :
 
 **CONTOH**
 
-A = {Win3.1, Win3.11, Win95, Win97}
+A = {Win3.1, Win3.11, Win95, Win97}\
 B = {Win95, Win97, Win98SE, WinMe, Win2000}
 
 **MAKA**
