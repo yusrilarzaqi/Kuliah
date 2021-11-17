@@ -17,7 +17,7 @@
 - Percabangan adalah suatu perintah (pernyataan) yang memungkinkan suatu perintah (pernyataan) dieksekusi jika suatu kondisi terpenuhi atau tidak terpenuhi.
   - Jika suatu kondisi terpenuhi, maka perintah akan dilaksanakan.
   - Jika kondisi tidak terpenuhi, maka perintah yang lainnya dilaksanakan.
-- Kondisi umumnya dalam bentuk Boolean (`Ture`/`False`)
+- Kondisi umumnya dalam bentuk Boolean (`ture`/`false`)
 - Percabangan didalam pemrograman digunakan oleh komputer untuk menentukan langkah kerja instruksi.
 - Percabangan menggunakan operator kondisional yang akan menghasilkan nilai boolean (benar / `true` atau salah / `false`).
 - Jika nilai yang dihasilkan benar, maka perintah (instruksi) akan dilaksanakan atau melaksanakan instruksi lainnya.
@@ -26,7 +26,7 @@
 
 - Tidak semua baris dalam program akan di eksekusi.
 - Suatu aksi akan dilakukan bila memenuhi persyaratan atau kondisi tertentu.
-- Penentuan kondisi **Boolean** dan aksi yang dilakukan bergantung pada jumlah pilihan atau kasus yang terdapat pada masalah tersebut apakah terdapat satu pilihan, dua pilihan, ataukah terdiri atau banyak pilihan.
+- Penentuan kondisi **boolean** dan aksi yang dilakukan bergantung pada jumlah pilihan atau kasus yang terdapat pada masalah tersebut apakah terdapat satu pilihan, dua pilihan, ataukah terdiri atau banyak pilihan.
 
 ## Jenis Percabangan
 
@@ -50,10 +50,12 @@
 ## Studi Kasus
 
 - Menentukan Kelulusan seorang siswa berdasarkan nilai yang didapat:
+
   - Jika nilai >= 60 maka dinyatakan "Lulus".
   - Jika nilai \ 60 maka ... ?
 
 - Menentukan nilai masukan apakah Genap atau ganjil jika nilai tersebut dibagi 2.
+ 
   - Jika Sisa = 0 maka Bilangan Genap
   - Jika Sisa = 1 maka ...?
 
@@ -70,13 +72,12 @@ var
 begin
     clrscr;
     write('Masukan Nilai : '); readln(nilai);
-    
-    if Nilai >= 60 then
-        ket := 'Lulus';
-        writeln('Keterangan = ', ket);
-        readln;
-end.
 
+    if Nilai >= 60 then
+      ket := 'Lulus';
+    writeln('Keterangan = ', ket);
+    readln;
+end.
 ```
 
 ---
@@ -96,14 +97,15 @@ begin
   if (bul mod 2 ) == 0 then
     ket := 'Genap';
 
-    writeln('Keterangan   : ', ket);
-    readln;
+  writeln('Keterangan   : ', ket);
+  readln;
 end.
 ```
 
-## Percabangan Dua kondisi 
+## Percabangan Dua kondisi
 
 Bentuk Umum
+
 ```pascal
 if <kondosi- Terpenuhi> Then
   {pernyataan-1}
@@ -123,10 +125,12 @@ Jika kondisi terpenuhi (*true*) maka lakukan aksi X jika tidak maka lakukan aksi
 ## Studi Kasus-2
 
 - Menentukan Kelulusan seorang siswa berdasarkan nilai yang didapat:
+
   - Jika nilai >= 60 maka dinyatakan "Lulus".
-  - Jika nilai \ 60 maka dinyatakan "Tidak Lulus"
+  - Jika nilai `< 60` maka dinyatakan "Tidak Lulus"
 
 - Menentukan nilai masukan apakah Genap atau ganjil jika nilai tersebut dibagi 2.
+
   - Jika Sisa = 0 maka Bilangan Genap
   - Jika Sisa = 1 maka Bilangan Ganjil.
 
@@ -171,7 +175,7 @@ begin
     ket := 'Genap';
   else
     ket := 'Ganjil';
-  
+
   writeln('Keterangan = ', ket);
   readln;
 end,
@@ -180,10 +184,11 @@ end,
 ## Pilihan Majemuk / bertingkat
 
 - Bentuk Umum
-```pascal
-if kondisi then
+
+  ```pascal
+  if kondisi then
   {Pernyataan-1}
-else
+  else
   if kondisi-2 then
     {Pernyataan-2}
   else
@@ -191,10 +196,12 @@ else
       {pernyataan-3}
     else
       {Pernyataan-n}
-```
+  ```
 
 - Dimana kondisi-1 di uji jika hasil _true_ jalankan pernyataan-1, jika _false_.
+
 - Uji kondisi-2, jika hasil _true_ jalankan pernyataan-2, jika hasilnya _false_.
+
 - Uji kondisi-3, jika hasil _true_ jalankan pernyataan-3, jika _false_ jalankan pernyataan-n dst.
 
 ## Contoh lain if majemuk
@@ -218,7 +225,7 @@ else
   - Jika nilai >= 86 maka grade-nya "Baik Sekali"
   - Jika nilai >= 70 maka grade-nya "Sekali"
   - Jika nilai >= 55 maka grade-nya "Cukup"
-  - Jika nilai \ 55 maka grade-nya "Remidi"
+  - Jika nilai `< 55` maka grade-nya "Remidi"
 
 ## Contoh Program
 
@@ -351,7 +358,7 @@ begin
           end
         else
           writeln('Anda memasukan golongan yang salah !!');
-  
+
   gaBer := gaPok + trans;
 
   writeln('Gaji Bersih  = ', gaBer:7:2);
@@ -449,11 +456,11 @@ begin
       gaPok := 2000000;
       Tunj := 75000;
     end;
-    
+
   else
     writeln('Anda memasukan golongan yang salah !!');
   end;
-  
+
   gaBer := gaPok + Tunj;
 
   writeln('Gaji Pokok Karyawan = ', gaPok:7:2);
@@ -485,7 +492,7 @@ var
 begin
   clrscr;
   write('Masukan Kode barang : '); readln(koBar);
-  
+
   if koBar='A-01' then
     begin
       namaBar := 'ATK';
@@ -530,7 +537,7 @@ begin
               else
                 writeln('Anda memasukan kode barang yang salah!!!');
               end;
-  
+
   writeln('Nama Barang          = ', namaBar);
   writeln('Harga Barang         = ', hargaBar:6:2);
   write('Jumla Barang           = ');readln(jml);
@@ -568,4 +575,3 @@ Tulislah algorita yang membaca nama pegawai, jumlah jam kerja seorang karyawan s
 - bentuk percabangan umumnya terdiri dari 3 hal: tunggal, dua dan majemuk.
 - Selain dengan `if then` dan `else`
 - Penyelesaian kondisi dapat diselesaikan dengan alternatif lain yaitu : `case of`
-
