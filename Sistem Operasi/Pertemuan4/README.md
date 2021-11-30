@@ -58,7 +58,7 @@
   - Pc yang pertama
 - **Pentium II**
 - **AMD K6 3D**
-  
+
 ## Komputer Generasi Kelima ()
 - Menggunakan **Very Large Scale Integration (VLSI)**
 - Adanya **Microprocessor** dan **Semiconductor**

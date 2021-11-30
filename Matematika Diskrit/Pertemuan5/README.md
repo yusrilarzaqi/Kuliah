@@ -33,24 +33,24 @@ Misalkan x himpunan warga negara Indonesia, P prefikat membayar pajak, R predika
 
 **Maka**
 
-1. *A*xP(*x*), : Semua warga negara membayar pajak.
+1. *∀*xP(*x*), : Semua warga negara membayar pajak.
 2. *E*xR(*x*)P(*x*), : Ada beberapa warga negara pemberli printer menbayar pajak.
-3. *A*xR(*x*) -> P(*x*), : Setiap warga negara jika beli printer maka membayar pajak. 
+3. *∀*xR(*x*) -> P(*x*), : Setiap warga negara jika beli printer maka membayar pajak. 
 4. *E*xR(*x*) ^ ~P(*x*), : Ada warga negara membeli printer dan tidak membayar pajak.
 
 ## Negasi Kuantor
 
-~*A***x** = *E***x**
-~*E***x** = *A***x**
+~*∀***x** = *E***x**
+~*E***x** = *∀***x**
 
 **maka** :
 
-- ~(*A***xP**(*x*)) = *E***x~P(*x*)**
-- ~(*E***xP(*x*)**) = *A***x~P(*x*)**
-- ~(*A***xP(*x*)**  -> **Q(*x*))** = *E***x~P(*x*)** -> **~Q(*x*))**\
+- ~(*∀***xP**(*x*)) = *E***x~P(*x*)**
+- ~(*E***xP(*x*)**) = *∀***x~P(*x*)**
+- ~(*∀***xP(*x*)**  -> **Q(*x*))** = *E***x~P(*x*)** -> **~Q(*x*))**\
                                    =  *E***xP(*x*)   ^  **~Q(*x*))**
-- ~(*E***xP(*x*)**  -> **Q(*x*))** = *A***x~P(*x*)** -> **~Q(*x*)**\
-                                   = *A***xP(*x*)**  ^  **~Q(*x*)**
+- ~(*E***xP(*x*)**  -> **Q(*x*))** = *∀***x~P(*x*)** -> **~Q(*x*)**\
+                                   = ****xP(*x*)**  ^  **~Q(*x*)**
 
 ## Latihan 
 
@@ -61,7 +61,4 @@ Terjemahkan pernyataan kuantor universal berikut ke dalam bashas sehari hari.
   - Jika seluruh planet adalah seperti bumi maka mendukung kehidupan.
   - Seluruh planet adalah seperti bumi atau semua orang mendukung kehidupan
   - Seluruh planet adalah seperti bumi atau tidak semua orang medukung kehidupan.
-  - 
-
-
 

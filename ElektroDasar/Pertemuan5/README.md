@@ -15,7 +15,7 @@ Saklar atau Switch merupakan salah satu jenis komponen elektronika aktif. Kompon
 
 Pada dasarnya, Relay terdiri dari 4 komponen dasar yaitu:
 
-- Elektromagnet (*coil*)
+- Elektromagnet *(coil)*
 - Armature
 - Switch Contact Point (Saklar)
 - Spring
