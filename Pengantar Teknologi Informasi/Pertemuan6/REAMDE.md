@@ -137,7 +137,7 @@ E-commerce dapat didefinisikan dari beberapa perspektif:
   - Agresi informasi.
   - Kolaborasi dengan perusahaan lain.
 
-## Model Bis Umum E-Commerce
+## Model Bisnis Umum E-Commerce
 
 1. **Penjualan online** (langsung tanpa melalui perantara).
 2. **Sistem tender** (*reverse action*) **elektronik**: suatu model dimana seorang pembeli meminta kandidat penjual untuk mengajukan penawaran harga; pemenangnya yang menajukan harga terendah.

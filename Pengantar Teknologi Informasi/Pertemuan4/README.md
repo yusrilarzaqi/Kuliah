@@ -43,6 +43,7 @@ Database merupakan gabungan dari beberapa file yang saling berhubungan dan dapat
 - **Instance** mengambarkan keterangan dari entity. Sebagai contoh mahasiswa (Jhons Mill, 088802413898) adalah instance dari mahasiswa.
 - **Identifier** merupakan atribut yang mengidentifikasi instance dari entity. Contohnya untuk instance mahasiswa dapat diidentifikasi dengan nomor id mahasiswa.
 - Relationship adalah menggambarkan hubungan satu entity dengan entity lain. Hubungan tersebut bisa hubungan one to one, one to many, dan many to many.
+
   - 1 : 1 (one to one)
     - Satu intance dari suatu entity berhubungan dengan satu intance dari satu
     - ![gambar1](img/gambar1.png)
@@ -53,7 +54,9 @@ Database merupakan gabungan dari beberapa file yang saling berhubungan dan dapat
     - Banyak instance dari suatu entity berhubungan dengan banyak instance dari suatu entity lain. Contohnya adalah hubungan antara entitas mahasiswa dan mata kuliah. Hubungan ini mengambarkan bahwa satu mahasiswa dapat mengambil lebih dari satu mata kuliah dan satu mata kuliah dan satu mata kuliah dapat diambil oleh lebih dari bkmata kuliah dan satu mata kuliah dapat diambil oleh lebih dari satu mahasiswa. 
     - ![gambar3](img/gambar3.png)
   - Satu mahasiswa bisa memiliki banyak mata kuliah dan satu matakuliah bisa dimiliki oleh banyak Mahasiswa.
+
 - **Normalization**
+
   - Pada relational database perlu dilakukan analisa agar tidak terjadi pengulangan atau *redundancy*. Normalisasi adalah cara untuk menganalisa dan menggurani suatu relasi database menjadi lebih singkat dengan tujuan meminimalkan duplikasi data, memaksimaklan integritas data, dan kinerja proses yang baik.
 
 ## Notasi ERD
