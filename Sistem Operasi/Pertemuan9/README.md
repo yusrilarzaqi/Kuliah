@@ -21,7 +21,7 @@
 - CPU memindahkan data dari/ke *memory* ke/dari *local buffer*
 
   - Setelah itu *controller* mengirimkan data dari *buffer* ke *device*.
-  
+
 - Bagaimana mekanisme *I/O* supaya *CPU* dapat melakukan *switch* dari satu job ke job lain?
 
 ## Operasi Sistem Komputer [2]

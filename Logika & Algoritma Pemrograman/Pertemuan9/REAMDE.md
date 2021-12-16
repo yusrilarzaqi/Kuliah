@@ -43,7 +43,7 @@ Tiga (3) Komponen utama dalam perulangan
 
 ## Sekema for-do
 
-![Sekema for-do](img)
+![Sekema for-do](img/skema.png)
 
 ## Pengulangan Positif
 
@@ -58,7 +58,7 @@ For X := 1 TO 100 DO
 
 ## Flowchart for - do positif
 
-![Flowchart for do positif](img/)
+![Flowchart for do positif](img/flowchart.png)
 
 ## Pengulangan Positif
 
@@ -82,7 +82,7 @@ For X := 1 TO 100 DO
  
 ## Program hasil
 
-![Program Hasil](img/)
+![Program Hasil](img/ProgramHasil1.png)
 
 ## Penjelasan
 
@@ -92,7 +92,7 @@ For X := 1 TO 100 DO
 
 ## Contoh program
 
-![Contoh Program](img/)
+![Contoh Program](img/ProgramHasil2.png)
 
 ## Pengulangan Negaif
 
@@ -113,11 +113,11 @@ For X := 25 DownTO 10 Do
  
 ## Flowchart for-do Negaif
 
-![Flowchart For Do Negaif](img/)
+![Flowchart For Do Negaif](img/flowchart1.png)
 
 ## Program + Hasil
 
-![Prgram Hail](img/)
+![Prgram Hail](img/ProgramHasil3.png)
 
 ## Penjelasan
 
@@ -126,11 +126,11 @@ For X := 25 DownTO 10 Do
 
 ## Pengulangan Perkalian
 
-![Pengulangan Perkalian](img/)
+![Pengulangan Perkalian](img/PerulanganPerkalian.png)
 
 ## Pengulangan Char 
 
-![Pengulangan Char](img/)
+![Pengulangan Char](img/PerulanganChar.png)
 
 ## Pengulangan Bersarang (Nested loop)
 

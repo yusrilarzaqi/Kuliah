@@ -13,7 +13,6 @@
 - Nested loop
 
 ## Jenis Perngulangan 
-
 - `for do`
 - `while - do`
 - `Repeat - until`
