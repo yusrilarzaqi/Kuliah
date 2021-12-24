@@ -9,7 +9,7 @@
 
 - Mahasiswa mampu dan mengerti mengenai fungsi karakter dan numeric.
 - Mahasiswa mampu mengkonversi atau memanipulai data dari string ke numeric atau sebaliknya dan dapat menerapak dalam penyusunan program.
-- Mahasiswa mampu menerapkan dalam penyusunan program.
+- Mahasiswa mampu menerapkan dalam penyusunan program / mngimplementasikan kedalam program.
 
 ## Concat (concatenation) penggabungan
 
@@ -17,7 +17,7 @@
 - Sintaks: `concat(s1[,s2,...,sn]: String): String;`
 
 ```pascal
-concat('ABC', 'DEF'){ABCDEF}
+concat('ABC', 'DEF') {ABCDEF}
 ```
 
 ## Copy
@@ -53,7 +53,7 @@ delete("Semarang", 3, 4) {Seng}
 - Index   = Posisi mulsi (integer)
 
 ```pascal
-insert("Semarang", "Atlas", 8) {SemarangAtlas}
+insert('Semarang', 'Atlas', 8) {SemarangAtlas}
 ```
 
 ## Contoh program
@@ -110,7 +110,7 @@ begin
   a := 2 * x;
   writeln(a);
   readln;
-  str(x, s); {Unknown identifier}
+  str(x, s); {Unknown identifier} {Type mismatch}
   b := 2*s;
   writeln(a);
   writeln(b);
