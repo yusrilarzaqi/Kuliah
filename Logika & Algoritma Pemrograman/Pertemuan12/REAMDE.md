@@ -65,7 +65,7 @@ end.
 program Goto_dalam_label;
 uses crt;
 label
-  Alas;
+  Atas;
 
 var
   nil1, nil2 : integer;
@@ -89,7 +89,7 @@ begin
   write('Ingin hitung lagi [y/n] : ');readln(lagi);
 
   if (lagi='y') or (lagi='Y') then
-    goto atas;
+    goto Atas;
 end.
 ```
 
