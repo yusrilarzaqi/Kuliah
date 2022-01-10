@@ -89,5 +89,5 @@ Gambarkan Pernyataan Boolean dibawah ini, dan buktikan dengan tabel kebenaran:
 2. ![Soal No 2](img/No2.png)
 3. ![Soal No 3](img/No3.png)
 4. ![Soal No 4](img/No4.png)
-5. ![Soal No 4](img/No5.png)
+5. ![Soal No 5](img/No5.png)
 
