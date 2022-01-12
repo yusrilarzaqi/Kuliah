@@ -85,7 +85,7 @@ var
   Bil : a_bil;
 ```
 
-## Contoh Progra,
+## Contoh Program
 
 ```pascal
 program Menapilkan_angka_tanpa_array;
@@ -200,7 +200,7 @@ begin
   writeln('Daftar Penjualan Barang');
   writeln;
   writeln('+---+-----------------+----------+-----+---------------+');
-  writeln('INo I Namaa Barang    I Harga @  I QTY I Total Bayar   I')
+  writeln('|No | Namaa Barang    | Harga @  | QTY | Total Bayar   |')
   writeln('+---+-----------------+----------+-----+---------------+');
    
   for x :- 1 to n do
@@ -226,25 +226,25 @@ end.
 
 1. Berikut adalah komponen utama sebuah array, **Kecuali**:
   a. Nama Array
-  b. Deklarasi
+  X. Deklarasi
   c. Index
   d. Type Data
 
 2. Berikut adalah contoh sebuah deklarasi array, **Kecuali**:
   a. `Nama : array[0..10] of string;`
   b. `Bilangan : array[10..25] of real;`
-  c. `Gaji : array[25..10] of integer;`
+  X. `Gaji : array[25..10] of integer;`
   d. `Tunjangan : array[1..5] of integer;`
 
 3. Type Index  dalam sebuah array berikut ini adalah benar, **Kecuali**:
   a. integer
-  b. boolean
+  X. boolean
   c. string
   d. byte
 
 4. Berikut adalah contoh sebuah deklarasi array dua dimensi, **Kecuali**:
   a. `Matakuliah : array[0..10, 1..5] of string;`
-  b. `Nilai : array[5..10,10..5] of real;`
+  X. `Nilai : array[5..10,10..5] of real;`
   c. `Gaji : array[5..10, 10..20] of integer;`
   d. `Tunjangan : array[1..5, 2..6] of integer;`
 
@@ -252,7 +252,7 @@ end.
   a. type
   b. boolean
   c. kolom
-  d. larik
+  X. larik
 
 ## Kesimpulan
 
