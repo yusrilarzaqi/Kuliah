@@ -87,4 +87,6 @@ print(fact(3))
 - Remember, the top most box in the stack tells you what call to fact you\'re currently on.
 - Notice that each call to **fact** has its own copy of **x**.
 - You can't access a different function's copy of **x**.
+- Notice that each call to **fact** has its own copy of **x**.
+- You can't access a different function's copy of **x**.
 
