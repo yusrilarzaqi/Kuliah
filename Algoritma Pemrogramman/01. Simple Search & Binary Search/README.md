@@ -46,7 +46,7 @@ This chapter covers:
 - Too low, but you just eliminated half the numbers!
 - Now you know that 1-50 are all too low. Next guess: 75.
 - Too high, but again you cut down half the remaining numbers!
-- **Whith binary search, you guess the middle number and eliminated half the remaining numbers every time.**
+- **Whit binary search, you guess the middle number and eliminated half the remaining numbers every time.**
 - Next is 63 (halfway bettwen 50 and 75).
 
 ## Binary Search Performance Explained
