@@ -2,14 +2,23 @@
 
 ## Komponen Dioda Elektronika dan Simbol Masing-Masing Komponen
 - Dioda Normal
+- ![Dioda Normal](img/Dioda normal.png)
 - Dioda Bridge
+- ![Dioda Bridge](img/Dioda Bridge.png)
 - Dioda Zener
+- ![Dioda Zener](img/Dioda zener.png)
 - Dioda Led
+- ![Dioda Led](img/Dioda LED.png)
 - Dioda foto
+- ![Dioda foto](img/Dioda Foto.png)
 - Dioda Laser
+- ![Dioda Leser](img/DIoda Laser.png)
 - Dioda Varactor
+- ![Dioda Varactor](img/Dioda Varactor.png)
 - Dioda Tunner
+- ![Dioda Tunner](img/Dioda Tunner.png)
 - Dioda Schottky
+- ![Dioda Schottky](img/Dioda Schottky.png)
 
 ## Dioda
 - Dioda atau diode termasuk salah satu dari komponen-komponen elektronika aktif.
@@ -32,7 +41,9 @@
 
 ### Jenis-Jenis Transistor 
 1. Transistor bipolar, adalah transistor yang memiliki dua kutup. Transistor ini bisa dibagi menjadi 2, yakini PNP (positif negatif positif),dan NPN (negatif positif negatif).
+  * ![Transistor Bipolar](img/Transistor Bipolar.png)
 2. Transistor unipolar, atau bisa disebut dengan transistor efek medan (FET). Transistor jenis ini hanya memiliki sebuah kutup saja.
+  * ![Transistor Unipolar](img/Transistor FET.png)
 
 ### Transistor FET (Field Effect Transistor)
 - Field Effect Transistor atau disingkat dengan FET adalah komponen Elektronika aktif yang menggunakan medan listrik untuk mengendalikan konduktifitasnya.
@@ -50,29 +61,4 @@
 - Seperti halnya JFET, Saluran pada MOSEFT juga dapat berupa semikonduktor tipe-N ataupun tipe-P. Terminal atau Elektroda Gerbangnya adalah sepotong logam yang permukaannya dioksidasi
 - Lapisan oksidasi ini berfungsi untuk menghambat hubungan listrik antara Terminal Gerbang dengan Salurannya. Oleh karena itu, MOSFET sering disebut juga dengan nama Insulated-Gate FET (IGFET). Karena lapisan Oksidasi ini bertidak sebagai dielektrik, maka pada dasarnya tidak akan terjadi aliran arus antara Gerbang dan Saluran. Dengan demikian, impedansi input pada MOSFET menjadi sangat tinggi dan jauh melebihi impendasi input pada JFET. Dalam bahasa Indonesia, MOSFET disebut juga dengan Transistor Efek Medan Semikonduktor Logam-Oksida.
 - Salah satu kelemahan pada MOSFET adalah tipisnya lapisan oksidasi sehingga sangat rentan rusak karena adanya pembuangan elektrostatik (Elektrostaic DisCharge).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
