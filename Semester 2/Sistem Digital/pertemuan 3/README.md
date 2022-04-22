@@ -85,20 +85,4 @@ Gerbang **XOR** akan mempunyai nilai output 0 apabila nilai inputnya sama.
 
 ![Hasil](./img/hasil.png) 
 
-## Chips / IC Digital Dasar
-
-- Implementasi diagram logik dilakukan dengan menggunakan Rangkaian elektronik digital yang biasanya berbentuk chips/ICJenis 
-- Jenis Chip logika yang ada di pasaran biasanya berbentuk IC TTL (Transistor-transistor Logic) atau MOS
-- Chip tersebut diidentifikasi dengan part number atau model number.
-- Seri IC rangkaian digital standar diawali dengan 74, 4, or 14.
-  - 7404 is an inverter
-  - 7408 is an AND
-  - 7432 is an OR
-  - 4011B is a NAND
-
-### Chips
-
-- Chip logika dasar biasanya berbentuk DIP (dual in package) dengan jumlah pin genap. Umumnya adalah 14-pin 
-- Pin 1 ditandai dengan adanya titik atau setengah lingkaran.
-- Nomor pin urut dibaca dari pin 1 berlawanan arah dengan jarum jam.
 
