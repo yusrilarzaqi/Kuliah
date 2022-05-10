@@ -151,8 +151,7 @@ end.
 - `case ... of`
 
 - **Contoh:**
-  
-  
+
 
 ```pascal
 uses wincrt;
