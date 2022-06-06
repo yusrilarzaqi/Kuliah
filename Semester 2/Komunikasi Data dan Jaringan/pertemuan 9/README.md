@@ -1,5 +1,16 @@
 # Install Windows Server 2003 di Virtual box
 
+## Instalasi Virtual box pada Manjaro linux
+
+1. Go to **Start** button of **Manjaro**.
+2. Search for **Add/Remove Software** and open it.
+3. Click on the **Search** icon givin on the left top side.
+4. There, type **VirtualBox** to search for its package to **install** from the Official repository.
+5. As it appears, click on the **Install** button.
+6. Wait for a few minutes and it will be on your system.
+7. Now, from applications simply run it and start creating Virtual Machines.
+8. ![VritualBox](./img/virtualbox.png)
+
 ## Membuat virtual Machine
 
 1. Membuat Vritual Machine dengan kilik icon **new** ![new](./img/new.png)
@@ -29,4 +40,4 @@
 15. Pada menu Date & Time zone pilih time zone GMT +07.00 Jakarta kemudian next ![Time zone](./img/time-zone.png)
 16. Pada menu Network setting pilih `Typical Setting` lalu next ![Network Setting](./img/network-setting.png)
 17. Pada menu Workgroup pilih saja default lalu next ![Workgroup](./img/workgroup.png)
-18. Setelah ini tekan `ctrl+alt+del` lalu sudah selesai Installasi windows server 2003 ![selesai](./img/selesai.png)
+18. Setelah ini tekan `ctrl+alt+del` lalu sudah selesai Instalasi windows server 2003 ![selesai](./img/selesai.png)
