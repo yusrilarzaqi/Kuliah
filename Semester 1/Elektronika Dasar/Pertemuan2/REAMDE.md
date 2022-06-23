@@ -10,7 +10,7 @@ I. Yang mengalir sebuah penghantar / konduktor akan berbanding lurus denganbeda 
 
 ![Ohm](img/Ohm.png)
 
-V = I * R, I = V/R, R = V/I
+V = I \* R, I = V/R, R = V/I
 
 - V : Voltage (Beda potensial / tegangan volt(V))
 - I : Current (Arus listrik Ampere (A))
@@ -24,6 +24,3 @@ V = I * R, I = V/R, R = V/I
 - ![Resistor Dapat diatur](img/ResistorDapatDiatur.png)
 - resistor yang dapat diubah berdasarkan intesitas cahaya (LDR)
 - ![Resistor Dapat diubah berdasarkan intesitas cahaya](img/ResistorIntesitasCahayua.png)
-
-
-

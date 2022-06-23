@@ -10,7 +10,6 @@ PT Indonesia Powet Unit Bisnis Pembangkitan Semarang beralamat di Ronggowarsito 
 Sistem distribusi tenaga listrik mengubungkan pusat pembangkit listrik (1) denan konsumen (4) melalui jaringan distribusi tenaga listrik (2) & (3)\
 <img src="./img/gambar1.PNG">
 
-
 ## Arus **Alternating Current (AC)**
 
 Arus mengalir berubah arah (bolak-balik) setiap detik. Tegangan PLN mempunyai frekuensi 50 Hz berati arus mengalir berubah arah setiap 50 kali dalam satu detik
@@ -20,7 +19,7 @@ Arus mengalir berubah arah (bolak-balik) setiap detik. Tegangan PLN mempunyai fr
 Perangkat yang membutuhkan tegangan DC.\
 
 <img src="./img/gambar2.PNG"> \
-<img src="./img/gambar3.PNG"> 
+<img src="./img/gambar3.PNG">
 
 ## Arus **Direct Current (DC)** atau Arus satu arah
 
