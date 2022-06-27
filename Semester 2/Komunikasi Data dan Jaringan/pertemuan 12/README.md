@@ -7,21 +7,16 @@
 ### Fungsi Teamviewer
 
 1. Remote Control
-
-- Dengan remote control, kita dapat mengontrol komputer orang lain, tetapi kita perlu mengetahui ID dari mitra TeamViewer di komputer yang ingin anda kontrol.
-- Yang harus kita lakukan adalah memasukan ID mitra, lali klik Hubungkan ke mitra dan kita dapat mengakses komputer orang lain dari jarak jauh.
-
+   - Dengan remote control, kita dapat mengontrol komputer orang lain, tetapi kita perlu mengetahui ID dari mitra TeamViewer di komputer yang ingin anda kontrol.
+   - Yang harus kita lakukan adalah memasukan ID mitra, lali klik Hubungkan ke mitra dan kita dapat mengakses komputer orang lain dari jarak jauh.
 2. File Transfer
-
-- Fungsi ini memiliki fungsi seperti client dan server.
-- Anda cukup menggunakan seret dan lepas untuk memindahkan file dari client ke server atau sebaliknya.
-- Pemula sangat mudah digunakan sehingga orang tidak mengalami kesulitan.
-
+   - Fungsi ini memiliki fungsi seperti client dan server.
+   - Anda cukup menggunakan seret dan lepas untuk memindahkan file dari client ke server atau sebaliknya.
+   - Pemula sangat mudah digunakan sehingga orang tidak mengalami kesulitan.
 3. Meeting
-
-- Ada dua kolom di sebelah kiri, dimana penyelenggara menyediakan akses ke pertemuan untuk orang lain dan kita sendiri.
-- Kami mengklik pertemuan instan yang dapat kami selenggarakan.
-- Karena kami dapat menghadiri sejumlah pertemuan lain, kami hanya dapat memasukkan ID rapat dan sudah bergabung dengan rapat.
+   - Ada dua kolom di sebelah kiri, dimana penyelenggara menyediakan akses ke pertemuan untuk orang lain dan kita sendiri.
+   - Kami mengklik pertemuan instan yang dapat kami selenggarakan.
+   - Karena kami dapat menghadiri sejumlah pertemuan lain, kami hanya dapat memasukkan ID rapat dan sudah bergabung dengan rapat.
 
 ## Any Desk
 
@@ -44,6 +39,6 @@ _Remote Desktop Protocol_ (**RDP**) dan akan secara default berjalan di TCP port
 
 Membuat Tutorial remote desktop menggunakan 3 aplikasi:
 
-- Team Viewer.
-- Any Desk.
-- RDP
+1. Team Viewer.
+2. Any Desk.
+3. RDP
