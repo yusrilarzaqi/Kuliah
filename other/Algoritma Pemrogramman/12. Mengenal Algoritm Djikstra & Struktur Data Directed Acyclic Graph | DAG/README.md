@@ -80,15 +80,15 @@ Step 2 again:
   - It takes 2 minutes to get to node B.
   - It takes 5 minutes to get to node A.
   - It takes 6 minutes to get to the finish.
-  
+
 ## Step 4
 
 - I'll save the last step, calculating the final path.
 - For now, I'll just show you what the final path is.
-- ![Step 4](img/step-4.png) 
+- ![Step 4](img/step-4.png)
 - Breadth-first search wouldn't have found this as the shortest path, because it has three segments.
 - And there's a way to get from the start to the finish in two segments.
-- ![Step 4](img/step-4-1.png) 
+- ![Step 4](img/step-4-1.png)
 
 ## Recap: Dijkstra's algorithm
 
@@ -96,7 +96,7 @@ Step 2 again:
 - Back then, "shortest"
 - But in Dijkstra's algorithm, you assign a number or weight to each segment.
 - Then Dijkstra's algorithm find the path with whe smallest total weight.
-- ![Recap](img/recap.png) 
+- ![Recap](img/recap.png)
 
 ---
 
@@ -110,14 +110,14 @@ To recap, Dijkstra's algorithm
 ## Terminology
 
 - When you work with Dijkstra's algorithm, each edge in the graph has a number associated with it.
-- These are called **weight** 
-- ![Terminology](img/terminology.png) 
+- These are called **weight**
+- ![Terminology](img/terminology.png)
 
 ---
 
 - A graph with weight's is called a **weighted graph**.
 - A graph without weights is called an **unweighted graph**.
-- ![Terminology](img/terminology-1.png) 
+- ![Terminology](img/terminology-1.png)
 - To calculate the shortest path in an **unweighted graph**, use **breadth-first search** .
 - To calculate the shortest path in a **weighted graph**, use **Dijkstra's algorithm**.
 
@@ -130,29 +130,29 @@ To recap, Dijkstra's algorithm
 ---
 
 - Suppose you're trying to find the shortest path this graph that has a cycle.
-- ![Terminology](img/terminology-3.png) 
+- ![Terminology](img/terminology-3.png)
 - Would it make sense to follow the cycle? Well, you can see use the path that avoids the cycle.
-- ![Terminology](img/terminology-4.png) 
+- ![Terminology](img/terminology-4.png)
 
 ---
 
 - Or you can follow the cycle.
-- ![Terminology](img/terminology-5.png) 
+- ![Terminology](img/terminology-5.png)
 - You end up at node A either way, but the cycle adds more weight.
 
 ---
 
 - You could even follow the cycle twice if you wanted.
-- ![Terminology](img/terminology-6.png) 
+- ![Terminology](img/terminology-6.png)
 - But every time you follow cycle, you're just adding 8 to the total weight.
 - So following the cycle will never give you the shortest path.
 
 ---
 
-- Finally, remember our conversation about **directed** versus **undirected** graphs from chapter 6? 
-- ![Terminology](img/terminology-7.png) 
+- Finally, remember our conversation about **directed** versus **undirected** graphs from chapter 6?
+- ![Terminology](img/terminology-7.png)
 - An undirected graph means that nodes point to each other. That's a **cycle**!
-- ![Terminology](img/terminology-8.png) 
+- ![Terminology](img/terminology-8.png)
 - With an undirected graph, each edge adds another cycle.
 - Dijkstra's algorithm only works with **directed acyclic graphs**, called **DAGs** for short.
 
@@ -206,15 +206,15 @@ To recap, Dijkstra's algorithm
 ---
 
 - Here's a different way to look at it. Suppose you're traveling from home to work.
-- ![Find The cheapest node](./img/find-the-cheapes-node.png) 
+- ![Find The cheapest node](./img/find-the-cheapes-node.png)
 - If you take the path toward park, that takes 6 minutes.
-- Is there any way you can take the path toward the park, and end up at the school, in  less than 2 minutes?
+- Is there any way you can take the path toward the park, and end up at the school, in less than 2 minutes?
 - It's impossible, because it takes longer than 2 minutes just to get to the park.
 
 ---
 
 - On the other hand, can you find a faster path to the park? Yup.
-- ![Find The cheapest node](./img/find-the-cheapes-node-1.png) 
+- ![Find The cheapest node](./img/find-the-cheapes-node-1.png)
 - This is the key idea behind Dijkstra's algorithm: Look at the cheapest node on your graph.
 - There is no cheaper way get to this node!
 - Back to the music example. The poster is the cheapest trade.
@@ -222,14 +222,14 @@ To recap, Dijkstra's algorithm
 ## Step 2: Figure out the cost
 
 - Figure out how long it takes to get to its neighbors (the cost).
-- ![Find The cheapest node](./img/find-the-cheapes-node-2.png) 
+- ![Find The cheapest node](./img/find-the-cheapes-node-2.png)
 - You have prices for the bass guitar and the drum set in the table.
 - Their value was set when you went through the poster, so the poster gets set as their parent.
 
 ---
 
 - That means, to get to the bass guitar, you follow edge from the poster, and the same for the drums.
-- ![Find The cheapest node](./img/find-the-cheapes-node-3.png) 
+- ![Find The cheapest node](./img/find-the-cheapes-node-3.png)
 
 ## Step 3: Repeat
 
@@ -290,21 +290,21 @@ Step 2 again: Update the values of all of its neighbors.
 ## Negative Weight Edges
 
 - In the trading example, Alex offered to trade the book for two items.
-- ![Negative weight edges](./img/Negative-weight.png) 
+- ![Negative weight edges](./img/Negative-weight.png)
 
 ---
 
-- Suppose Sarah offers to trade the LP for the poster, and she'll 
+- Suppose Sarah offers to trade the LP for the poster, and she'll
 - It doesn't cost Rama anything to make this trade; instead, he gets $7 back.
 - How would you show this on the graph?
-- ![Negative weight edges](./img/Negative-weight-1.png) 
+- ![Negative weight edges](./img/Negative-weight-1.png)
 
 ---
 
 - The edge from the LP to the poster has a negative weight!
 - Rama gets $7 back if he makes that trade.
 - Now Rama has two ways to get to the poster.
-- ![Negative weight edges](./img/Negative-weight-2.png) 
+- ![Negative weight edges](./img/Negative-weight-2.png)
 
 ---
 
@@ -320,7 +320,7 @@ Step 2 again: Update the values of all of its neighbors.
 - Negative weight edge break the algorithm.
 - Let's see what happends when you run Dijkstra's algorithm on this.
 - First, make the table of cost.
-- ![Negative weight edges](./img/Negative-weight-3.png) 
+- ![Negative weight edges](./img/Negative-weight-3.png)
 
 ---
 
@@ -328,15 +328,15 @@ Step 2 again: Update the values of all of its neighbors.
 - In this case, the poster is the lowest cost node.
 - So, according to Dijkstra's algorithm, there is no cheaper way to get to the poster than paying $0 (you know that's wrong).
 - Any, let's update the costs for its neighbors.
-- ![Negative weight edges](./img/Negative-weight-4.png) 
+- ![Negative weight edges](./img/Negative-weight-4.png)
 - OK, the drums have a cost of $35 now.
 
 ---
 
 - Let's get the next-cheapest node than hasn't already been processed.
-- ![Negative weight edges](./img/Negative-weight-5.png) 
+- ![Negative weight edges](./img/Negative-weight-5.png)
 - Update the costs for its neighbors.
-- ![Negative weight edges](./img/Negative-weight-6.png) 
+- ![Negative weight edges](./img/Negative-weight-6.png)
 - You already processed the poster node, but you're updating the cost for it.
 
 ---
@@ -344,7 +344,7 @@ Step 2 again: Update the values of all of its neighbors.
 - This is a big red flag. Once you processs a node, it means there's no cheaper way to get to that node.
 - But you just found a cheaper way to the poster! Drums doesn't have any neighbors, so that's the end of the algorithm.
 - Here are the final costs.
-- ![Negative weight edges](./img/Negative-weight-7.png) 
+- ![Negative weight edges](./img/Negative-weight-7.png)
 - It costs $35 to get to the drums.
 - You know that there's a path that costs only $33, but Dijkstra's algorithm didn't find it.
 
@@ -356,3 +356,7 @@ Step 2 again: Update the values of all of its neighbors.
 - If you want to find the shortest path in a graph that has negative weight edges, there's an algorithm for that! It's called the **Bellman Ford algorithm**.
 - Bellman Ford is out of the scope of this book, but you can find some great explanations online.
 
+## Implementation
+
+- Let's see how to implement Dijkstra's algorithm in code. Here's the graph I'll use for the example.
+-
