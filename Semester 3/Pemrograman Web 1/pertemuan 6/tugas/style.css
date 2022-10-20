@@ -1,0 +1,23 @@
+body {
+	font-size: 30px;
+}
+
+code {
+	font-family: "Courier New", Courier, monospace;
+	background-color: #e0e0e0;
+	border-radius: 10px;
+	padding: 0 0.2em;
+}
+
+.red {
+	color: red;
+}
+
+.center {
+	text-align: center;
+}
+
+.credit {
+	text-align: right;
+	padding-right: -10px;
+}
