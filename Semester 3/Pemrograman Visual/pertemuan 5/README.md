@@ -53,9 +53,9 @@
      Private Sub Cmb_Drive_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cmb_Drive.SelectedIndexChanged
        LstInfo.Items.Clear()
        LstInfo.Items.Add("Nama Drive :" & Dir("" & _
-       Cmb_Drive.Text & "", FileAttribute.Volume) & "")
+        Cmb_Drive.Text & "", FileAttribute.Volume) & "")
        LstInfo.Items.Add("System :" & Dir("" & _
-       Cmb_Drive.Text & "", FileAttribute.System) & "")
+         Cmb_Drive.Text & "", FileAttribute.System) & "")
        Dim dvr As New DriveInfo(Cmb_Drive.Text)
        Dim kapasitas = CStr(dvr.TotalSize / 1000000) & " MB"
        Dim sisa = CStr(dvr.TotalFreeSpace / 1000000) & " MB"
@@ -143,10 +143,10 @@
      ```
 8. Klik ganda pada menu ContextMenuStrip dengan menu regular, kemudian ketik kode program berikut ini :
    - ```
-        Private Sub RegularToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As
-     System.EventArgs) Handles RegularToolStripMenuItem.Click
-     RchTeks.SelectionFont = New Font(RchTeks.SelectionFont, FontStyle.Regular)
-     End Sub
+      Private Sub RegularToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As
+        System.EventArgs) Handles RegularToolStripMenuItem.Click
+        RchTeks.SelectionFont = New Font(RchTeks.SelectionFont, FontStyle.Regular)
+      End Sub
      ```
 9. Klik ganda pada menu ContextMenuStrip dengan menu Bold, kemudian ketik kode program berikut ini :
    - ```

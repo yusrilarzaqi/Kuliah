@@ -1,0 +1,329 @@
+<h1>Form Dan Object Control</h1>
+
+<h2>Tujuan</h2>
+
+<ul>
+<li>Mamahami dan mengenal Form dan Object Control.</li>
+<li>Dapat membuat aplikasi sederhana dengan menggunakan form dan object control.</li>
+</ul>
+
+
+<h2>Perangkat Lunak (Software)</h2>
+
+<ul>
+<li>Microsoft Visual Basic 2010</li>
+</ul>
+
+
+<h2>Dasar Teori</h2>
+
+<p><strong>Object Control</strong></p>
+
+<ul>
+<li><code>MenuStrip</code> adalah merupakan object conrol yang berfungsi untuk membuat menu pilihan drop down.</li>
+<li><code>ContextMenuStrip</code> adalah merupakan object conrol yang berfungsi untuk membuat menu pilihan yang akan tampil pada saat tombol kanan mouse di klik.</li>
+<li><code>RichTextBox</code> adalah merupakan object conrol yang fungsinya hampir sama seperti text box hanya saja di object control ini lebih banyak menampung karakter dan bisa manipulasi karakter seperti menggaris bawahi sdb.</li>
+<li><code>OpenFileDialog</code> adalah merupakan object control yang berfungsi untuk membuka kotak dialog open.</li>
+<li><code>SaveFileDialog</code> berfungsi untuk membuka kotak dialog save yang dimiliki windows.</li>
+<li><code>ToolStrip</code> adalah merupakan objek control yang berfungsi hampir sama dengan tombol pada umumunya hanya saja pada objek control ini setiap tombol memiliki gambar dan digunakan untuk mengakses gambar dengan cepat.</li>
+<li><code>StatusStrip</code> digunakan untuk menampilkan informasi seperti nama aplikasi, jam, tanggal, dll. Pada umumnya object control ini</li>
+</ul>
+
+
+<h2>Praktikum</h2>
+
+<h3><code>ComboBox</code> dan <code>ListBox</code></h3>
+
+<ol>
+<li>Tambahkan Form baru, dengan cara klik kanan pada <strong>Prak2</strong>. Klik Add, pilih Windows Form &hellip; Beri nama <strong>Form2</strong>.</li>
+<li>Buatlah desain Tampilan form seperti gambar berikut ini:
+
+<ul>
+<li><img src="./img/ComboBox&amp;ListDrive.png" alt="ComboBox dan ListBox" /></li>
+</ul>
+</li>
+<li>Tambahkan kontrol ke form seperti pada gambar diatas dan atur propertinya seperti tabel berikut :
+
+<ul>
+<li><table>
+<thead>
+<tr>
+<th style="text-align:center;"> <strong>Object</strong> </th>
+<th style="text-align:center;">       <strong>Properties</strong>       </th>
+<th style="text-align:center;">                <strong>Nilai</strong>                 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">   Form2    </td>
+<td style="text-align:center;"> Name, Text, Start Position </td>
+<td style="text-align:center;"> Form2, ComboBox dan ListBox CenterScreen </td>
+</tr>
+<tr>
+<td style="text-align:center;">   Label1   </td>
+<td style="text-align:center;">            Text            </td>
+<td style="text-align:center;">                  Drive                   </td>
+</tr>
+<tr>
+<td style="text-align:center;">   Label2   </td>
+<td style="text-align:center;">            Text            </td>
+<td style="text-align:center;">                Keternagan                </td>
+</tr>
+<tr>
+<td style="text-align:center;"> Combobox1  </td>
+<td style="text-align:center;">            Name            </td>
+<td style="text-align:center;">                Cmb_Drive                 </td>
+</tr>
+<tr>
+<td style="text-align:center;">  ListBox1  </td>
+<td style="text-align:center;">            Name            </td>
+<td style="text-align:center;">                 LstInfo                  </td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+<li>Klik icon view code pada solution Explorer, di atas Public Class Form1, ketikan kode program berikut ini:
+
+<ul>
+<li><code>
+Imports System.IO
+Public Class Form2
+</code></li>
+</ul>
+</li>
+<li>Klik ganda pada form, kemudian ketikan kode program berikut ini:
+
+<ul>
+<li><code>
+Private Sub Form2_load(ByVal Sender As System.Object, ByVal e As System.EventArgs) Handles
+MyBase.Load
+  Cmb_Drive.Items.AddRange(IO.DriveInfo.GetDrives)
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Klik ganda pada ComboBox, Kemudian ketik kode program berikut ini:
+
+<ul>
+<li><code>
+Private Sub Cmb_Drive_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cmb_Drive.SelectedIndexChanged
+  LstInfo.Items.Clear()
+  LstInfo.Items.Add("Nama Drive :" &amp; Dir("" &amp; _
+  Cmb_Drive.Text &amp; "", FileAttribute.Volume) &amp; "")
+  LstInfo.Items.Add("System :" &amp; Dir("" &amp; _
+  Cmb_Drive.Text &amp; "", FileAttribute.System) &amp; "")
+  Dim dvr As New DriveInfo(Cmb_Drive.Text)
+  Dim kapasitas = CStr(dvr.TotalSize / 1000000) &amp; " MB"
+  Dim sisa = CStr(dvr.TotalFreeSpace / 1000000) &amp; " MB"
+  Dim Terpakai = CStr(Val(kapasitas) - Val(sisa)) &amp; " MB"
+  LstInfo.Items.Add("Kapasitas : " &amp; kapasitas)
+  LstInfo.Items.Add("Terpakai  : " &amp; Terpakai)
+  LstInfo.Items.Add("Sisa      : " &amp; sisa)
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Jalankan Aplikasi dengan menekan tombol <strong>F5</strong> (dikeyboard), atau melalui icon Start Debugging di toolbar, atau melalui menu <strong>Debug > Start Debugging</strong>.</li>
+<li>Simpan aplikasi <strong>Anda</strong>.</li>
+</ol>
+
+
+<h3><code>Timer</code> dan <code>DateTimePicker</code></h3>
+
+<ol>
+<li>Tambahkan Form baru, dengan cara klik kanan pada <strong>Prak2</strong>. Klik Add, pilih Windows Form &hellip; Beri nama <strong>Form3</strong></li>
+<li>Buatlah desain Tampilan form seperti gambar berikut ini:
+
+<ul>
+<li><img src="./img/timer&amp;datetimepicker.png" alt="Timer dan DateTimePicker" /></li>
+</ul>
+</li>
+<li>Tambahkan kontrol ke form seperti pada gambar diatas dan atur propertinya seperti tabel berikut:
+
+<ul>
+<li><table>
+<thead>
+<tr>
+<th> <strong>Object</strong>      </th>
+<th> <strong>Properties</strong>            </th>
+<th> <strong>Nilai</strong>                                   </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> Form3           </td>
+<td> Name, Text, Start Postion </td>
+<td> Form3, Time &amp; DateTimePicker, Center Screen </td>
+</tr>
+<tr>
+<td> Label1          </td>
+<td> name                      </td>
+<td> Lbl12jam                                    </td>
+</tr>
+<tr>
+<td> Label2          </td>
+<td> Name                      </td>
+<td> Lbl24jam                                    </td>
+</tr>
+<tr>
+<td> DateTimePicker1 </td>
+<td> Name                      </td>
+<td> Dtanggal                                    </td>
+</tr>
+<tr>
+<td> Timer1          </td>
+<td> Enable Interval           </td>
+<td> True 1000                                   </td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+<li>Klick ganda pada form, ketikkan kode program berikut ini:
+
+<ul>
+<li><code>
+Private Sub Form3_Load(ByVal sender As System.Object, ByVal e As System.EventArgs)
+Handless MyBase.Load
+ DTanggal.Format = DateTimePickerFormat.Custom
+ DTanggal.CustomFormat = "dddd,dd/MM/yyyy"
+ DTanggal.Value = Format(Now)
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Klik ganda pada Timer1, ketikkan kode program berikut ini:
+
+<ul>
+<li><code>
+Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs)
+Handless Timer1.Tick
+ Lbl12Jam.Text = Format(Now, "h:mm:ss tt")
+ Lbl24Jam.Text = Format(Now, "hh:mm:ss")
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Jalankan aplikasi dengan menekan tombol <strong>F5</strong> (dikeyboard), atau melalui icon Start Debugging di toolbar, atau melalui menu <strong>Debug > Start Debugging</strong>.</li>
+<li>Simpan aplikasi <strong>Anda</strong>.</li>
+</ol>
+
+
+<h3><code>MenuStrip</code>, <code>ContextMenuStrip</code> dan <code>RichTextBox</code></h3>
+
+<ol>
+<li>Tambahkan Form baru, dengna cara klik kanan pada <strong>Prak2</strong>. Klik Add, pilih Windows Form &hellip; Beri nama <strong>Form4</strong>.</li>
+<li>Buatlah desain Tampilan form seperti gambar berikut ini:
+
+<ul>
+<li><img src="./img/NotePad.png" alt="NotePad" /></li>
+</ul>
+</li>
+<li>Tambahkan <code>menuStrip</code> seperti pada form diatas.</li>
+<li>Tambahkan kontrol ke form seperti pada gambar diatas dan atur propertinya seperti tabel berikut :
+
+<ul>
+<li><table>
+<thead>
+<tr>
+<th style="text-align:center;">    <strong>Object</strong>     </th>
+<th style="text-align:center;">       <strong>Proprties</strong>        </th>
+<th style="text-align:center;">          <strong>Nilai</strong>           </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">       Form1       </td>
+<td style="text-align:center;"> Name, Text, Start Position </td>
+<td style="text-align:center;"> Form1, NotePad, CenterScreen </td>
+</tr>
+<tr>
+<td style="text-align:center;">    MenuStrip1     </td>
+<td style="text-align:center;">            name            </td>
+<td style="text-align:center;">          MenuStrip1          </td>
+</tr>
+<tr>
+<td style="text-align:center;">   RichTextBox1    </td>
+<td style="text-align:center;">   Name, ContextMenuStrip   </td>
+<td style="text-align:center;">  RchTeks, ContextMenuStrip1  </td>
+</tr>
+<tr>
+<td style="text-align:center;"> ContextMenuStrip1 </td>
+<td style="text-align:center;">            Name            </td>
+<td style="text-align:center;">      ContextMenuStrip1       </td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+<li>Klik ganda pada menu buka, ketikan kode program berikut ini:
+
+<ul>
+<li><code>
+Private Sub BukaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+Handles BukaToolStripMenuItem.Click
+ Dim kotak_dialog As OpenFileDialog = New OpenFileDialog
+ kotak_dialog.Filter = "File Text (*.txt) | *.txt"
+ kotak_dialog.ShowDialog()
+ Dim fileText As String = My.Computer.FileSystem.ReadAllText(kotak_dialog.FileName)
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Klik ganda pada menu simpan, ketikan kode program berikut ini:
+
+<ul>
+<li><code>
+Private Sub SimpanToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+Handles SimpanToolStripMenuItem.Click
+  Dim kotak_dialog As SaveFileDialog = New SaveFileDialog
+  kotak_dialog.Filter = "File Text (*.txt) | *.txt"
+  kotak_dialog.ShowDialog()
+  My.Computer.FileSystem.WriteAllText("" &amp; kotak_dialog.FileName &amp; "",RchTeks.Text, False)
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Klik ganda pada menu Baru, ketikan kode program berikut ini:
+
+<ul>
+<li><code>
+Private Sub BaruToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+Handles BaruToolStripMenuItem.Click
+ RchTeks.Text = ""
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Klik ganda pada menu ContextMenuStrip dengan menu regular, kemudian ketik kode program berikut ini :
+
+<ul>
+<li><code>
+   Private Sub RegularToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As
+System.EventArgs) Handles RegularToolStripMenuItem.Click
+RchTeks.SelectionFont = New Font(RchTeks.SelectionFont, FontStyle.Regular)
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Klik ganda pada menu ContextMenuStrip dengan menu Bold, kemudian ketik kode program berikut ini :
+
+<ul>
+<li><code>
+ Private Sub BoldToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+ Handles BoldToolStripMenuItem.Click
+  RchTeks.SelectionFont = New Font(RchTeks.SelectionFont, FontStyle.Bold)
+End Sub
+</code></li>
+</ul>
+</li>
+<li>Jalankan aplikasi dengan menekan tombol <strong>F5</strong> (dikeyboard), atau melalui icon Start Debugging di toolbar, atau melalui menu <strong>Debug > Start Debugging</strong>.</li>
+<li>Simpan aplikasi <strong>Anda</strong>.</li>
+</ol>
+
+
+<h2>#</h2>
