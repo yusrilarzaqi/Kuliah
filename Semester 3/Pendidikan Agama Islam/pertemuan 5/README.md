@@ -15,7 +15,7 @@
 > Suatu hari, kami duduk dekat Rasulullah saw, tiba-tiba muncuk <font color="red">seorang laki-laki mengenakan pakaian yang sangat putih dan rambutnya hitam legam</font>.
 > Tak terlihat tanda-tanda bekas perjalanan jauh, dan tak seorang pun di antara kami yang mengenalnya. Ia duduk di depan Nabi lututnya ditempelkan ke lutut beliau, dan kedua tangannya diletakkan di paha beliau, lalu berkata, "<font color="red">Hai Muhammad! Beritau aku tentang Islam</font>." Rasulullah menjawab, "Islam itu engkau bersaksi ... dst"
 
-> Ia bertanya lagi, "<font color"red">Beritau aku tentang iman</font>". Nabi menjawab, "Iman itu engkau percaya kepada Allah ... dst"
+> Ia bertanya lagi, "<font color="red">Beritau aku tentang iman</font>". Nabi menjawab, "Iman itu engkau percaya kepada Allah ... dst"
 
 > Laki-laki itu berkata lagi, "<font color="red">Beritau aku tentang ihsan</font>!". Nabi menjawab, Hendaklah engkau beribadah kepada Allah seakan-akan engkau melihatNya, kalaupun engkau tidak melihatNya, sesungguhnya Dia melihatmu .. dst.
 
@@ -75,7 +75,7 @@ muthmainnah, sebagaimana firman-Nya :
 
 ![gambar 1-2](./img/1-2.png)
 
-> <font color="blue">Whai jiwa yang tenang! Kembalilah kepada Tuhanmu dengan hati yang riba dan diridaiNya. Maka masuklah ke dalam golongan hamba-hambaKu, dam masuklah ke dalam surgaKu.</font> [Q.S. Al-Fajr 27-30]
+> <font color="blue">Wahai jiwa yang tenang! Kembalilah kepada Tuhanmu dengan hati yang riba dan diridaiNya. Maka masuklah ke dalam golongan hamba-hambaKu, dam masuklah ke dalam surgaKu.</font> [Q.S. Al-Fajr 27-30]
 
 Ayat di atas dengan jelas menegaskan bahwa nafsu
 muthma’inah merupakan titik berangkat untuk kembali
@@ -86,7 +86,7 @@ untuk menaiki tangga nafsu diatasnya.
 Menurut imam ghazali ada 7 macam nafsu sebagai proses tingkatan tangga nafsu yaitu :
 
 1. <font color="red">Nafsu ammarah</font> : yaitu nafsu yang bertindak yang jelek baik terhadap Allah SWT maupun sesama manusia
-2. <font color="red">Nafsu Tawwamah</font> : yaitu nafsu yang mengerti atas tindakan baik dan buruk tetapi terkadang masih berbuat buruk dan terkadang berbuat baik tetapi bisa berbuat hal buruk kembali
+2. <font color="red">Nafsu Lawwamah</font> : yaitu nafsu yang mengerti atas tindakan baik dan buruk tetapi terkadang masih berbuat buruk dan terkadang berbuat baik tetapi bisa berbuat hal buruk kembali
 3. <font color="red">Nafsu mulhamah</font> : yaitu nafsu yang mulai takut dengan Allah bila akan melakukan sesuatu yang buruk
 4. <font color="red">Nafsu muthma’inah</font> : yaitu nafsu yang memberikan ketenangan dalam jiwa, jika melakukan amalan kebajikan
 5. <font color="red">Nafsu radhiyah</font> : yaitu nafsu yang menganggap makruh itu haram dan sunah adalah diwajibkan dan sudah tidak menghiraukan duniawi

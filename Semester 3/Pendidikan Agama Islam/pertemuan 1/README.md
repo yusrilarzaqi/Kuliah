@@ -147,7 +147,7 @@ Sumber yuridis penyelenggaraan PAI di PT sebagai berikut.
 
 ## Model Pendekatan / Metode Pembelajaran PAI di PTk
 
-**Manakah yang lebih penting ?**0
+**Manakah yang lebih penting ?**
 
 1. Berbasis Subtansi Materi mahasiswa perlu dibekali materi agama sebanyak - banyaknya
 2. Berbasis Proses dibekali sedikit materi agama (yang inti-inti dan substansial), tetapi dibekali cara yang mudah untuk mempelajarinya?
@@ -181,12 +181,11 @@ Sumber yuridis penyelenggaraan PAI di PT sebagai berikut.
 3. Pendekatan tentang Tujuan Didatangkannya Syariat Islam
 
    - Methode Pembelajarn PAI ini didasarkan pada tujuan didatangkannya syariat islam (maqāshid asy-syar‟iyah), ada lima, yaitu :
-
-- 1.  Menjaga Agama.
-  2.  Menjaga jiwa.
-  3.  Menjaga akal.
-  4.  Menjaga keturunan.
-  5.  Menjaga harta.
+   - Menjaga Agama.
+   - Menjaga jiwa.
+   - Menjaga akal.
+   - Menjaga keturunan.
+   - Menjaga harta.
 
 ## Berbasis Proses
 
@@ -222,5 +221,3 @@ yang dapat kita kembangkan, misalnya:
    - Semua manusia tanpa kecuali membutuhkan Tuhan.
    - Hanya saja penghalang utama kebutuhan ber-Tuhan ini adalah keinginan- keinginan duniawi.
    - Jika keinginan-keinginan duniawi ini dikurangi, lantas diperbesar keinginan-keinginan ukhrawi, maka kebutuhan ber-Tuhan akan sangat terasa.
-
-###
