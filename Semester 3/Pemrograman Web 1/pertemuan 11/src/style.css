@@ -2,6 +2,7 @@
 	color: #333;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -11,20 +12,19 @@ body {
 }
 
 h1 {
-	text-transform: lowercase;
+	text-transform: capitalize;
 	color: #3399ff;
-	font-size: 25px;
+	font-size: 44px;
 }
 
 h2 {
 	color: #3399ff;
-	font-size: 14px;
+	font-size: 44px;
 	text-transform: uppercase;
 }
 
 div {
 	padding: 5px;
-	border: 1px solid #fff;
 }
 
 .container {
@@ -35,47 +35,96 @@ div {
 }
 
 .header {
-	background-color: #fff;
+	background-color: #ccc;
 	text-align: center;
+	padding: 2em 0;
 }
 
 .content {
-	font-size: 12px;
+	font-size: 22px;
 	background-color: #fff;
 	text-align: justify;
+	margin: 2em;
+	padding: 0.5em;
+	border: 1px solid black;
+	transition: ease 0.5s;
+	box-shadow: 0.5em 0.5em #3399ff;
 }
 
-.footer {
-	font-size: 11px;
-	color: #ccc;
-	text-align: conter;
+.content-header {
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+}
+
+.content-body {
+	padding-top: 10px;
+}
+
+.content:hover {
+	box-shadow: 0.7em 0.7em #3399ff;
+}
+
+.content p {
+	font-family: monospace;
+}
+
+.content-body span {
+	float: right;
+	padding-right: 40em;
 }
 
 .menu {
-	height: 25px;
 	padding: 0;
 	border: 0;
 }
+.menu ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #343a40;
+}
 
-.menu li {
-	list-style: none;
-	text-align: center;
+.menu ul li {
 	float: left;
-	height: auto;
-	width: 150px;
 	font: 12px/25px Verdana, Arial;
 }
 
+.menu ul .active a {
+	background-color: #3399ff;
+	color: #333;
+}
+
 .menu li a {
-	font-weight: a;
+	text-align: center;
 	text-transform: uppercase;
 	color: #ccc;
 	text-decoration: none;
-	background: #fff;
+	padding: 8px;
 	display: block;
 }
 
 .menu li a:hover {
-	background-color: #fff 0 -25px;
-	color: #000;
+	background-color: #6c757d;
+	color: #fff;
+	transition: background-color 500ms linear;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #343a40;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.footer p {
+	font-size: 13px;
+	color: #fff;
+}
+
+.footer a {
+	color: #3399ff;
+	text-decoration: none;
 }
