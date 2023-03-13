@@ -1,0 +1,12 @@
+h1 {
+	color: lime;
+	background-color: grey;
+	font-style: normal;
+	text-decoration: underline;
+}
+p {
+	color: red;
+	background-color: yellow;
+	border: 2px solid black;
+	text-transform: uppercase;
+}
